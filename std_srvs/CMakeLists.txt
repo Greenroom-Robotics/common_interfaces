@@ -12,6 +12,7 @@ endif()
 
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(rosidl_generator_mypy REQUIRED)
 
 set(srv_files
   "srv/Empty.srv"
